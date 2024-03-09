@@ -5,9 +5,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Main extends Thread {
-    public Main() {
-    }
+public class Main{
 
     public static void main(String[] var0) {
         int threads = Runtime.getRuntime().availableProcessors() - 1;
